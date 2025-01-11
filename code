@@ -11,17 +11,17 @@
 #include <ESP32Servo.h>
 
 // Setup koneksi
-const char* ssid = "Galaxy A24 EC21";
-const char* password = "Pr4t4m4*";
-const char* mqtt_broker = "192.168.26.130";
-const char* topic = "parking/topic";
-const char *mqtt_username = "adiyasa";
-const char *mqtt_password = "Pr4t4m4*";
+const char* ssid = "xxx"; //sesuaikan dengan WiFi yang digunakan
+const char* password = "xxx"; //sesuaikan dengan WiFi yang digunakan
+const char* mqtt_broker = "xxx"; //sesuaikan dengan IP MQTT yang digunakan
+const char* topic = "xxx"; //sesuaikan dengan topik database yang digunakan
+const char *mqtt_username = "xxx";
+const char *mqtt_password = "xxx";
 const int mqtt_port = 1883;
 String serverName = "www.circuitdigest.cloud";
 String serverPath = "/readnumberplate";
 const int serverPort = 443;
-String apiKey = "JtfrY4ynQJVN";
+String apiKey = "xxx"; //ganti dengan API
 String imageViewLink = "https://www.circuitdigest.cloud/static/" + apiKey + ".jpeg";
 int count = 0;
 
